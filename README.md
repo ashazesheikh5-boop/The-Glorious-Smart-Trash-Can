@@ -4,8 +4,7 @@ The trash can of the future.
 
 ## Overview
 
-This project aims to make a smart trash can that helps mitigate hygiene problems associated with public bins and encourages a sustainable mindset. It also educates users by displaying random environmental facts on an outer LCD display.
-
+This project aims to make a smart trash can that helps mitigate hygiene problems associated with public bins and encourages a sustainable mindset. It also displays the status of the smart bin via the LCD. This includes a start up message as whether or not the lid is open. Furthermore, the display also shows the distance (in cm) from the nearest object.
 ## Key Features
 
 - Touchless actuation using an HC-SR04 ultrasonic sensor and servo-driven lid.
