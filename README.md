@@ -22,3 +22,11 @@ This project aims to make a smart trash can that helps mitigate hygiene problems
 | SG90 servo motor | 1 | PWM: 6 |
 | 16x2 LCD display | 1 | RS: 12, EN: 11, D4-D7: 5, 4, 3, 2 |
 | 10k potentiometer | 1 | Display contrast: V0 |
+
+## Schematic View
+
+![Schematic view](<src/Screenshot 2026-08-21 214549.png>)
+
+## Tinkercad Wiring
+
+![Tinkercad wiring](<src/Screenshot 2026-08-21 214607.png>)
