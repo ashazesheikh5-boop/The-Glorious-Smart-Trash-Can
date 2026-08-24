@@ -29,3 +29,23 @@ This project aims to make a smart trash can that helps mitigate hygiene problems
 ## Tinkercad Wiring
 
 ![Tinkercad wiring](<docs/images/Screenshot 2026-08-21 214607.png>)
+
+## User's Guide
+
+1. Connect the Arduino to a 5V source (like a laptop)
+2. Wait for the start up message to appear (startup message is "SMART BIN, Ready to use")
+3. Wave your hand near the ultrasonic sensor
+4. This will cause the lid to open up automatically
+5. Dispose of trash
+6. Lid will close automatically after 2.5s
+
+## Troubleshooting
+
+| Problem | Solution |
+| --- | --- |
+| LCD screen is blank | Adjust the contrast potentiometer (10kΩ pot on pin V0) slowly until text appears |
+| Lid won't open when hand is near sensor | Ensure your hand is within 12cm of the HC-SR04 sensor; check that the sensor is not blocked |
+| Lid opens randomly without motion | The sensor may be picking up vibrations; keep the trash can on a stable surface |
+| Lid won't close after opening | Check that the servo motor can rotate freely; verify servo is powered at 5V |
+| LCD shows corrupted text | Verify all LCD data pins (D4-D7) are properly connected to Arduino pins 5, 4, 3, 2 |
+| Arduino not responding | Disconnect and reconnect the 5V power source; reload the firmware using PlatformIO |
