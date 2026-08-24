@@ -47,5 +47,5 @@ This project aims to make a smart trash can that helps mitigate hygiene problems
 | Lid won't open when hand/object is near sensor | Ensure your hand is within 7cm of the HC-SR04 sensor; check that the sensor is not blocked and that the servo is free to move |
 | Lid opens randomly without motion | The sensor may be picking up vibrations; keep the trash can on a stable surface |
 | Lid won't close after opening | Check that the servo motor can rotate freely; verify servo is powered at 5V |
-| LCD shows corrupted text | Verify all LCD data pins (D4-D7) are properly connected to Arduino pins 5, 4, 3, 2 |
+| LCD shows corrupted text | Verify all LCD data pins (D4-D7) are properly connected to Arduino pins 5, 4, 3 and 2 |
 | Arduino not responding | Disconnect and reconnect the 5V power source; reload the firmware using PlatformIO |
