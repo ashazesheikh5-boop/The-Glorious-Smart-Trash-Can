@@ -25,8 +25,8 @@ This project aims to make a smart trash can that helps mitigate hygiene problems
 
 ## Schematic View
 
-![Schematic view](<src/Screenshot 2026-08-21 214549.png>)
+![Schematic view](<docs/images/Screenshot 2026-08-21 214549.png>)
 
 ## Tinkercad Wiring
 
-![Tinkercad wiring](<src/Screenshot 2026-08-21 214607.png>)
+![Tinkercad wiring](<docs/images/Screenshot 2026-08-21 214607.png>)
