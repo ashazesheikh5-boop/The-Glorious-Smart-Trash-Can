@@ -21,3 +21,10 @@ HARDWARE:
 | 10kΩ Potentiometer   |    1     | Display Contrast Adjustment | V0                                |
 | Breadboard & Jumpers |    1     | Circuit Interconnects       | 5V / GND Bus                      |
 
+
+SCHEMATIC VIEW:
+![alt text](<Screenshot 2026-08-21 214549.png>)
+
+
+Tinkercad wiring:
+![alt text](<Screenshot 2026-08-21 214607.png>)
