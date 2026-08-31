@@ -5,6 +5,41 @@ The trash can of the future.
 ## Overview
 
 This project aims to make a smart trash can that helps mitigate hygiene problems associated with public bins and encourages a sustainable mindset. It also displays the status of the smart bin via the LCD. This includes a start up message as whether or not the lid is open. Furthermore, the display also shows the distance (in cm) from the nearest object.
+
+## Project Structure
+
+- README.md — overview, hardware list, setup steps, and troubleshooting guide
+- platformio.ini — PlatformIO configuration for the Arduino Mega project
+- src/main.cpp — main code that controls the sensor, servo, LCD, and smart-bin behavior
+- docs/images — diagrams and images for the schematic and wiring setup
+- include/ — optional header files for future code organisation
+- lib/ — reusable libraries for the project
+- test/ — testing or validation sketches
+
+## Getting Started
+
+### Option 1: Using PlatformIO (recommended for this project)
+
+1. Install VS Code and the PlatformIO extension
+2. Open the repository in VS Code
+3. Connect the Arduino Mega to your computer via USB
+4. Click the PlatformIO upload button to build and upload the firmware
+5. Power the system and wave your hand near the ultrasonic sensor
+6. The lid should open automatically and close after a short delay
+
+### Option 2: Using Arduino IDE
+
+1. Open the main code file on GitHub: src/main.cpp
+2. Copy the code from the file
+3. Open the Arduino IDE and create a new sketch
+4. Paste the copied code into the sketch
+5. Select Board: Arduino Mega or Mega 2560
+6. Select the correct COM port
+7. Click Upload
+8. Test the smart bin by waving a hand near the ultrasonic sensor
+
+This method is the simplest for beginners because you do not need to download or unzip the whole project folder.
+
 ## Key Features
 
 - Touchless actuation using an HC-SR04 ultrasonic sensor and servo-driven lid.
