@@ -14,13 +14,18 @@ This project aims to make a smart trash can that helps mitigate hygiene problems
 
 ## Hardware
 
-| Component | Quantity | Pin mapping |
+| Component | Quantity | Pin mapping / notes |
 | --- | ---: | --- |
 | ELEGOO Mega 2500 | 1 | ATmega2560 controller |
 | HC-SR04 sensor | 1 | Trig: 8, Echo: 9 |
 | SG90 servo motor | 1 | PWM: 6 |
 | 16x2 LCD display | 1 | RS: 12, EN: 11, D4-D7: 5, 4, 3, 2 |
 | 10k potentiometer | 1 | Display contrast: V0 |
+| Trash can (made from an ice cream box) | 1 | Main bin body |
+| 10 cm length of string | 1 | Used to connect the lid mechanism |
+| Wooden toy crate | 1 | Used as a platform to host the servo motor |
+
+> The wooden toy crate was used as a platform to host the servo motor for the trash-lid mechanism.
 
 ## Schematic View
 
