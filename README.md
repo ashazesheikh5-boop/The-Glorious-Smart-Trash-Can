@@ -69,6 +69,10 @@ This method is the simplest for beginners because you do not need to download or
 
 > The wooden toy crate was used as a platform to host the servo motor for the trash-lid mechanism.
 
+## Completed Project
+
+![Completed smart bin](<docs/images/Smart Bin Pic.jpeg>)
+
 ## Schematic View
 
 ![Schematic view](<docs/images/Screenshot 2026-08-21 214549.png>)
