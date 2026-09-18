@@ -8,6 +8,8 @@ This project aims to make a smart trash can that helps mitigate hygiene problems
 
 [Watch the smart bin demo video](https://youtube.com/shorts/bG5IagtlKZQ)
 
+[View the main source code](src/main.cpp)
+
 ## Project Structure
 
 - README.md — overview, hardware list, setup steps, and troubleshooting guide
