@@ -10,6 +10,8 @@ This project aims to make a smart trash can that helps mitigate hygiene problems
 
 [View the main source code](src/main.cpp)
 
+[View the bill of materials](BOM.csv)
+
 ## Project Structure
 
 - README.md — overview, hardware list, setup steps, and troubleshooting guide
