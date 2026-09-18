@@ -6,6 +6,8 @@ The trash can of the future.
 
 This project aims to make a smart trash can that helps mitigate hygiene problems associated with public bins and encourages a sustainable mindset. It also displays the status of the smart bin via the LCD. This includes a start up message as whether or not the lid is open. Furthermore, the display also shows the distance (in cm) from the nearest object.
 
+[Watch the smart bin demo video](docs/videos/Main%20Smart%20bin%20vid.mp4)
+
 ## Project Structure
 
 - README.md — overview, hardware list, setup steps, and troubleshooting guide
